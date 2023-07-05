@@ -10,13 +10,16 @@ The repository follows the following structure:
 .
 ├── src/
 │ └── index.ts
+
 ├── out/
+
 ├── .gitignore
+
 ├── .prettierrc
+
 ├── package.json
-├── serverless.yml
+
 └── README.md
-`code`
 
 src/: This directory contains the source code for your AWS Lambda function.
 
