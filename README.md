@@ -1,20 +1,21 @@
 ## AWS Lambda TypeScript Starter
+
 This repository serves as a template for creating AWS Lambda functions using TypeScript and deploying them with the Serverless framework. It provides a basic structure to get you started quickly.
 
 # Structure
+
 The repository follows the following structure:
 
-kotlin
-Copy code
 .
 ├── src/
-│   └── index.ts
+│ └── index.ts
 ├── out/
 ├── .gitignore
 ├── .prettierrc
 ├── package.json
 ├── serverless.yml
 └── README.md
+
 src/: This directory contains the source code for your AWS Lambda function.
 
 index.ts: The main file where the Lambda handler function is defined. You can implement your desired functionality within this file.
@@ -29,6 +30,7 @@ package.json: The npm package file that lists the dependencies and scripts requi
 serverless.yml: The Serverless Framework configuration file. It defines the AWS resources, such as the Lambda function and API Gateway, and their associated settings.
 
 ## Getting Started
+
 To start using this template, follow these steps:
 
 Clone the repository: git clone <repository_url>
@@ -43,4 +45,3 @@ The provided index.ts file contains a basic Lambda handler function that respond
 The function is triggered by an API Gateway event and returns an HTTP response with a status code of 200. The response body is a JSON string containing the "Hello World!" message. You can customize these values as needed.
 
 Feel free to explore the AWS Lambda and Serverless Framework documentation for more information on advanced usage and configuration options.
-
