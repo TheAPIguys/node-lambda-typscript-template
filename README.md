@@ -6,6 +6,7 @@ This repository serves as a template for creating AWS Lambda functions using Typ
 
 The repository follows the following structure:
 
+`code`
 .
 ├── src/
 │ └── index.ts
@@ -15,6 +16,7 @@ The repository follows the following structure:
 ├── package.json
 ├── serverless.yml
 └── README.md
+`code`
 
 src/: This directory contains the source code for your AWS Lambda function.
 
@@ -39,7 +41,8 @@ Implement your desired functionality within the index.ts file.
 Build the TypeScript code: npm run build
 Deploy the Lambda function using Serverless: npx serverless deploy
 
-##Functionality
+## Functionality
+
 The provided index.ts file contains a basic Lambda handler function that responds with a "Hello World!" message. You can modify this function to implement your desired logic.
 
 The function is triggered by an API Gateway event and returns an HTTP response with a status code of 200. The response body is a JSON string containing the "Hello World!" message. You can customize these values as needed.
