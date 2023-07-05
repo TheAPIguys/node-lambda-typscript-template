@@ -1,0 +1,25 @@
+{
+  "name": "lambda-typscript-template",
+  "version": "1.0.0",
+  "description": "Template AWS Lambda typescript to js",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "lambda-typescript-template"
+  },
+  "keywords": [
+    "lambda",
+    "typescript",
+    "template"
+  ],
+  "author": "Daniel",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
